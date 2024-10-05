@@ -2,7 +2,7 @@ import sqlite3 #引入sqlite3
 import sqlite3
 from flask import Flask, render_template, request, url_for, flash, redirect
 
-app = Flask(__name__)
+app = Flask(__name__)   # 创建一个Flask对象app，名字为blog。
 app.config['SECRET_KEY'] = 'maishu is fat again, 555'
 
 
